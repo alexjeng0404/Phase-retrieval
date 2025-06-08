@@ -1,7 +1,6 @@
 clear;
 close all;
 
-beta = 0.8;
 trial = 10000;
 img_index = 6;
 % 1:cameraman, 2:smiley face, 3:diamond
