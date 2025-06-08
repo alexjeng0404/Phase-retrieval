@@ -155,10 +155,6 @@ legend('GS','GD');
 title('Convergence Comparison');
 grid on;
 
-
-% Save image
-imwrite(mat2gray(abs(a)), 'man.png');
-
 % Functions
 function y = proja(y,phi1)
     x = ifft2(ifftshift(y));
